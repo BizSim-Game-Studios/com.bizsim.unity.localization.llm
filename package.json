@@ -1,0 +1,23 @@
+{
+  "name": "com.bizsim.unity.localization.llm",
+  "version": "0.1.0",
+  "displayName": "BizSim Localization LLM",
+  "description": "Editor tool that translates Unity Localization string tables into chosen languages through the studio llm-batch tool (Anthropic Message Batches): finds missing and changed entries, sends them as one batch, checks placeholders, Smart Strings, rich text, glossary and lengths, and writes only the rows you accept.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.localization": "1.5.0"
+  },
+  "author": {
+    "name": "BizSim Game Studios"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BizSim-Game-Studios/com.bizsim.unity.localization.llm.git"
+  },
+  "keywords": [
+    "localization",
+    "translation",
+    "llm",
+    "editor"
+  ]
+}

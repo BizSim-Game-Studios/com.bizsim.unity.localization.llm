@@ -1,0 +1,19 @@
+{
+  "name": "BizSim.Unity.Localization.Llm.Editor",
+  "rootNamespace": "BizSim.Unity.Localization.Llm.Editor",
+  "references": [
+    "Unity.Localization",
+    "Unity.Localization.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

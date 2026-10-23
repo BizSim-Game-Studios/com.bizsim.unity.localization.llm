@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.idea/
+.vs/
+.vscode/
+*.sln
+*.csproj
+*.suo
+*.user
+
+# Unity generated
+Library/
+Temp/
+Logs/
+obj/
+Build/
+
+# Development plans (local only)
+DevelopmentPlans/
