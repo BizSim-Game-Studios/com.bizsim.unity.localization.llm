@@ -1,6 +1,6 @@
 {
   "name": "com.bizsim.unity.localization.llm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "BizSim Localization LLM",
   "description": "Editor tool that translates Unity Localization string tables into chosen languages through the studio llm-batch tool (Anthropic Message Batches): finds missing and changed entries, sends them as one batch, checks placeholders, Smart Strings, rich text, glossary and lengths, and writes only the rows you accept.",
   "unity": "6000.0",

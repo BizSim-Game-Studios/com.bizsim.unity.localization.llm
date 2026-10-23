@@ -31,7 +31,8 @@ No API key exists in this package or in the project: llm-batch reads its own key
    translations count as current and later source edits are detected.
 
 `stateFile` (default `docs/translations/llm-translation-state.json`) belongs in the repo; `workDir`
-(default `Temp/LocalizationLlm`) is scratch.
+(default `Library/LocalizationLlm`) is scratch that must survive an Editor restart between Send and
+Fetch, which is why it is not `Temp/` (Unity wipes `Temp/` on close).
 
 ## CLI / automation
 

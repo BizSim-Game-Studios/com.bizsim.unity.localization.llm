@@ -48,8 +48,9 @@ namespace BizSim.Unity.Localization.Llm.Editor
         public int chunk = 40;
         [Tooltip("Project-relative; keep it in the repo so changed-source detection survives")]
         public string stateFile = "docs/translations/llm-translation-state.json";
-        [Tooltip("Project-relative scratch folder for job, batch state and results")]
-        public string workDir = "Temp/LocalizationLlm";
+        [Tooltip("Project-relative folder for job, batch state and results. Not Temp/: Unity wipes it when " +
+                 "the Editor closes, which would lose a batch between Send and Fetch")]
+        public string workDir = "Library/LocalizationLlm";
 
         public static LlmTranslationSettings Load()
         {

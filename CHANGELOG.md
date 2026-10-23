@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1] - 2026-10-23
+
+### Fixed
+- Default `workDir` is `Library/LocalizationLlm`, not `Temp/LocalizationLlm`: Unity wipes `Temp/` when the
+  Editor closes, which lost the batch state between Send and Fetch. Existing settings assets keep their
+  value; change it there too.
+
 ## [0.1.0] - 2026-10-23
 
 ### Added
