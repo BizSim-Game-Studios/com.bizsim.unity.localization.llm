@@ -44,7 +44,8 @@ namespace BizSim.Unity.Localization.Llm.Editor
         public List<string> doNotTranslate = new List<string>();
         public List<FixedTerm> fixedTerms = new List<FixedTerm>();
         public List<LengthRule> lengthRules = new List<LengthRule>();
-        public string model = "claude-haiku-5-5";
+        [Tooltip("Empty = the llm-batch tool's default model")]
+        public string model = "";
         public int chunk = 40;
         [Tooltip("Project-relative; keep it in the repo so changed-source detection survives")]
         public string stateFile = "docs/translations/llm-translation-state.json";

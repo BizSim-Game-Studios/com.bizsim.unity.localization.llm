@@ -1,8 +1,7 @@
 # BizSim Localization LLM
 
 Editor tool that fills and refreshes Unity Localization string tables through the studio
-**llm-batch** tool (`D:/Projects/studio-ops/shared-tools/llm-batch`, Anthropic Message Batches,
-half price, asynchronous). Editor-only; nothing ships in a player build.
+**llm-batch** tool (asynchronous batch translation). Editor-only; nothing ships in a player build.
 
 ## What it does
 

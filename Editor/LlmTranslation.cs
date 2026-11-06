@@ -59,8 +59,10 @@ namespace BizSim.Unity.Localization.Llm.Editor
             var args = new List<string>
             {
                 "translate-submit", Work(s, "job.json"), "--state", Work(s, "state.json"),
-                "--model", s.model, "--chunk", s.chunk.ToString()
+                "--chunk", s.chunk.ToString()
             };
+            if (!string.IsNullOrEmpty(s.model))
+                args.AddRange(new[] { "--model", s.model });
             if (send)
                 args.Add("--send");
             return LlmBatchRunner.Run(args.ToArray()).output;
